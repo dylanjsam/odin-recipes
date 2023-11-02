@@ -8,12 +8,38 @@ text-align: center;
 font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
-div {
-color: white;
-background-color: black;
 
+.odd {
+    background-color: rgb(126, 29, 74);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-p {
-    color: red;
+#second {
+    color: blue;
+    font-size: 36px;
+}
+
+.big {
+    font-size: 24px;
+}
+
+#fourth {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.one, 
+.two {
+font-size: 28px;
+font-family: Helvetica, 'Times New Roman', sans-serif;
+}
+
+.one {
+    background-color: black;
+    color: white;
+}
+
+.two {
+    background-color: yellow;
 }
