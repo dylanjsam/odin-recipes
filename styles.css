@@ -1,45 +1,24 @@
+
+
 body {
-background-color: linen;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    color: :whitesmoke ;
 }
 
-h1 {
-color: blue;
-text-align: center;
-font-family: "Comic Sans MS", "Comic Sans", cursive;
-}
-
-
-.odd {
-    background-color: rgb(126, 29, 74);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-#second {
-    color: blue;
-    font-size: 36px;
-}
-
-.big {
-    font-size: 24px;
-}
-
-#fourth {
-    background-color: lightgreen;
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.one, 
-.two {
-font-size: 28px;
-font-family: Helvetica, 'Times New Roman', sans-serif;
-}
-
-.one {
-    background-color: black;
-    color: white;
-}
-
-.two {
-    background-color: yellow;
+.box {
+    height: 300px;
+    width: 600px;
+    display: flex;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+    margin: 8px;
+    align-items: center;
+    justify-content: center;
 }
